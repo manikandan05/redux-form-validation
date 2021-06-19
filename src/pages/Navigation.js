@@ -8,6 +8,7 @@ import Asynchronous from './Asynchronous';
 
 const handleSubmit = (values) => {
     console.log(JSON.stringify(values));
+    alert(JSON.stringify(values));
 }
 
 const Navigation = (props) => {

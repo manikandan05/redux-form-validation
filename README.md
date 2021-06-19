@@ -1,1 +1,1 @@
-# redux-form-validation
+# Simple Redux Form Samples and Its validation

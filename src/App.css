@@ -1,0 +1,162 @@
+.sample-container .header {
+  height: 60px;
+  line-height: 60px;
+  justify-content: center;
+  display: flex;
+  flex: 1 1;
+  background: #27ad6f;
+  color: #fff;
+  font-weight: 700;
+}
+
+.sample-container .header h1 {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+}
+
+.sample-container .content-area {
+  display: flex;
+  flex: 1;
+}
+
+.sample-container .content-area .navigation {
+  height: 100vh;
+  box-shadow: 0 0 4px 0 grey;
+}
+
+.sample-container .navigation .nav-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sample-container .navigation .nav-items > .items {
+  padding: 15px 30px;
+}
+
+.sample-container .navigation .nav-items > .items:hover{
+  background: #d8d8d8;
+}
+
+.sample-container .navigation .nav-items > .items > a {
+  color: #000;
+  text-decoration: none;
+}
+
+.sample-container .content-area .main-container {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+}
+
+.main-container .form-layout {
+  width: 660px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.form-layout form {
+  padding: 30px;
+}
+
+.form-layout .form-group {
+  height: inherit;
+  min-height: 40px;
+  display: flex;
+}
+
+.form-layout .form-group > label {
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  line-height: 40px;
+}
+
+.form-layout .control {
+  flex: 1;
+}
+
+.form-layout .text-danger {
+  font-weight: 700;
+  display: block;
+}
+
+.form-layout .text-danger:before {
+  margin-right: 5px;
+}
+
+.form-layout .control > .text {
+  height: 38px;
+  border: 1px solid #ccc;
+  width: 100%;
+  text-indent: 11px;
+  border-radius: 5px;
+}
+
+.form-layout .rw-multiselect {
+  width: 100%;
+}
+
+.form-layout .control > textarea {
+  width: 100%;
+  height: 100px;
+  text-indent: 11px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-layout .footer .btns {
+  display: flex;
+}
+
+.form-layout .footer .license-text {
+  padding: 0 0 0 10px;
+}
+
+.form-layout .option {
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+
+.form-layout .control.radio {
+  display: inline-block;
+}
+
+.form-layout .control.radio input {
+  margin: 0;
+}
+
+.form-layout .option > label {
+  margin: 0 0 0 10px;
+}
+
+.form-layout .bi-question-circle-fill {
+  margin-left: 10px;
+}
+
+
+.form-layout .footer .btn {
+  margin: 0px 20px 0 0;
+  width: 100px;
+}
+
+.form-layout .terms.form-group {
+  display: inline-block;
+  line-height: 30px;
+}
+
+.form-layout .header {
+  height: 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background: #1a2179;
+  color: #fff;
+  font-weight: 700;
+  line-height: 36px;
+  font-size: 25px;
+  border-radius: 10px 10px 0 0;
+}
+
